@@ -1,4 +1,5 @@
 common/config.yaml
 debug_tool/*
-logs/data/
+logs/
+data/
 .debug_test_query.xlsx
