@@ -1,0 +1,249 @@
+ERROR - 2023-05-11 10:24:45,927 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:24:48,064 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:24:50,092 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:24:50,111 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:27:31,721 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:27:33,854 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:27:35,889 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:27:35,901 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:27:35,959 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 exceptions must derive from BaseException
+ERROR - 2023-05-11 10:27:38,036 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 exceptions must derive from BaseException
+ERROR - 2023-05-11 10:27:40,106 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 exceptions must derive from BaseException
+ERROR - 2023-05-11 10:27:40,117 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目余额表 
+        请求路径: http://112.124.200.126/api/zz/zz/account/subjectBalanceV2/queryList?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:30:28,792 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:30:30,927 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:30:32,947 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:30:32,970 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:30:33,029 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:assert_control.py:45 断言数据: {'type': '==', 'value': True, 'AssertType': None} 中，缺少 {'type': '==', 'value': True, 'AssertType': None} 属性
+ERROR - 2023-05-11 10:30:33,030 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1 validation error for Assert
+jsonpath
+  field required (type=value_error.missing)
+ERROR - 2023-05-11 10:30:35,148 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:assert_control.py:45 断言数据: {'type': '==', 'value': True, 'AssertType': None} 中，缺少 {'type': '==', 'value': True, 'AssertType': None} 属性
+ERROR - 2023-05-11 10:30:35,148 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1 validation error for Assert
+jsonpath
+  field required (type=value_error.missing)
+ERROR - 2023-05-11 10:30:37,232 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:assert_control.py:45 断言数据: {'type': '==', 'value': True, 'AssertType': None} 中，缺少 {'type': '==', 'value': True, 'AssertType': None} 属性
+ERROR - 2023-05-11 10:30:37,232 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1 validation error for Assert
+jsonpath
+  field required (type=value_error.missing)
+ERROR - 2023-05-11 10:30:37,241 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目余额表 
+        请求路径: http://112.124.200.126/api/zz/zz/account/subjectBalanceV2/queryList?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:43:29,069 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:31,252 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:33,351 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:33,361 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=$cache{acid}&id=$cache{acid} 
+        请求方式: GET 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:43:33,639 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:35,719 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:37,845 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:37,853 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=$cache{acid}&category=资产&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:43:37,854 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:43:39,885 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:43:41,903 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:43:41,914 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:43:42,327 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:44,406 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:46,482 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:46,487 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目余额表 
+        请求路径: http://112.124.200.126/api/zz/zz/account/subjectBalanceV2/queryList?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:43:46,671 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:48,740 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:50,838 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:50,844 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:43:50,896 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'jsonpath': '$.success', 'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:52,970 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'jsonpath': '$.success', 'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:55,038 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'jsonpath': '$.success', 'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:55,044 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=$cache{acid}&category=资产&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:43:55,106 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'jsonpath': '$.success', 'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:57,193 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'jsonpath': '$.success', 'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:59,269 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:48  断言数据: '{'status_code': 200, 'responseSuccess': {'jsonpath': '$.success', 'type': '==', 'value': True, 'AssertType': None}}' 中缺少 `AssertType` 属性 
+ERROR - 2023-05-11 10:43:59,275 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1901 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=$cache{acid}&category=资产&extData%5B'search'%5D=1901 
+        请求方式: GET 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 10:51:14,454 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:52 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:51:16,564 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:52 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:51:18,587 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:52 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 10:51:18,599 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-11 11:19:31,807 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:52 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 11:19:33,929 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:52 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 11:19:48,501 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:53 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 11:19:50,616 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:53 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 11:19:52,638 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:test_debug_create_delete_1999.py:53 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-11 11:19:52,650 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-11.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        

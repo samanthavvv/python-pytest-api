@@ -1,0 +1,1096 @@
+INFO - 2023-05-11 09:35:46,354 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg1NDYzNzIsImV4cCI6MTY4MzgwODU0NiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjcwYmJmNTJiLTI5YTAtNDk0Yy1hZjFmLWU5ZTc4MTlhYTM4NyIsImNsaWVudF9pZCI6InBjIn0.Mn3R16l7U11udl0VwTHfijmyxZ-auGdgGb9Xqrd3xfg'}
+        ====================================================== END
+INFO - 2023-05-11 09:35:48,624 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 09:35:50,948 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 09:35:51,233 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg1NDYzNzIsImV4cCI6MTY4MzgwODU0NiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjcwYmJmNTJiLTI5YTAtNDk0Yy1hZjFmLWU5ZTc4MTlhYTM4NyIsImNsaWVudF9pZCI6InBjIn0.Mn3R16l7U11udl0VwTHfijmyxZ-auGdgGb9Xqrd3xfg'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:36:04,333 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg1NDYzNzIsImV4cCI6MTY4MzgwODU0NiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjcwYmJmNTJiLTI5YTAtNDk0Yy1hZjFmLWU5ZTc4MTlhYTM4NyIsImNsaWVudF9pZCI6InBjIn0.Mn3R16l7U11udl0VwTHfijmyxZ-auGdgGb9Xqrd3xfg', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:36:12,765 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 09:36:12,765 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 2
+INFO - 2023-05-11 09:36:12,765 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 09:36:12,765 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 5
+INFO - 2023-05-11 09:36:12,765 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 09:36:12,766 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 27.37 s
+INFO - 2023-05-11 09:36:12,766 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 28.57 %
+INFO - 2023-05-11 09:39:52,678 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg3OTI3MDQsImV4cCI6MTY4MzgwODc5MiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjZmOGI3YWI3LTc0OTktNDMzNi1hZmRjLTI1MDUyZDZkNjY3ZiIsImNsaWVudF9pZCI6InBjIn0.Vq6UESOgjfYHE30wyxk0keGgtRTYqLoQpXZh6BJ94q8'}
+        ====================================================== END
+INFO - 2023-05-11 09:39:54,763 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 09:39:56,856 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 09:39:56,911 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg3OTI3MDQsImV4cCI6MTY4MzgwODc5MiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjZmOGI3YWI3LTc0OTktNDMzNi1hZmRjLTI1MDUyZDZkNjY3ZiIsImNsaWVudF9pZCI6InBjIn0.Vq6UESOgjfYHE30wyxk0keGgtRTYqLoQpXZh6BJ94q8'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:40:09,548 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg3OTI3MDQsImV4cCI6MTY4MzgwODc5MiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjZmOGI3YWI3LTc0OTktNDMzNi1hZmRjLTI1MDUyZDZkNjY3ZiIsImNsaWVudF9pZCI6InBjIn0.Vq6UESOgjfYHE30wyxk0keGgtRTYqLoQpXZh6BJ94q8', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:40:18,025 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 09:40:18,025 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 2
+INFO - 2023-05-11 09:40:18,025 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 09:40:18,025 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 5
+INFO - 2023-05-11 09:40:18,025 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 09:40:18,025 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 26.75 s
+INFO - 2023-05-11 09:40:18,025 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 28.57 %
+INFO - 2023-05-11 09:42:06,687 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg5MjY3MTUsImV4cCI6MTY4MzgwODkyNiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImEyNDY3ZGJmLTYxNTEtNGI1ZC1iZWZmLWMwNmQ0ZTBiNjhkNiIsImNsaWVudF9pZCI6InBjIn0.UYLCwJ716o_uNzbd0Z0gIqpRTmu--HhhzMqbLY-m3pw'}
+        ====================================================== END
+INFO - 2023-05-11 09:42:08,740 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 09:42:10,812 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 09:42:10,877 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg5MjY3MTUsImV4cCI6MTY4MzgwODkyNiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImEyNDY3ZGJmLTYxNTEtNGI1ZC1iZWZmLWMwNmQ0ZTBiNjhkNiIsImNsaWVudF9pZCI6InBjIn0.UYLCwJ716o_uNzbd0Z0gIqpRTmu--HhhzMqbLY-m3pw'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:42:10,921 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg5MjY3MTUsImV4cCI6MTY4MzgwODkyNiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImEyNDY3ZGJmLTYxNTEtNGI1ZC1iZWZmLWMwNmQ0ZTBiNjhkNiIsImNsaWVudF9pZCI6InBjIn0.UYLCwJ716o_uNzbd0Z0gIqpRTmu--HhhzMqbLY-m3pw'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683769330973,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:42:19,352 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDg5MjY3MTUsImV4cCI6MTY4MzgwODkyNiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImEyNDY3ZGJmLTYxNTEtNGI1ZC1iZWZmLWMwNmQ0ZTBiNjhkNiIsImNsaWVudF9pZCI6InBjIn0.UYLCwJ716o_uNzbd0Z0gIqpRTmu--HhhzMqbLY-m3pw', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:42:27,782 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 09:42:27,782 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 3
+INFO - 2023-05-11 09:42:27,782 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 09:42:27,783 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 4
+INFO - 2023-05-11 09:42:27,783 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 09:42:27,783 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 22.62 s
+INFO - 2023-05-11 09:42:27,783 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 42.86 %
+INFO - 2023-05-11 09:44:52,660 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDkwOTI2ODUsImV4cCI6MTY4MzgwOTA5MiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImI3NmM3N2I1LTQ1ZjYtNDQzNS1hMmViLThjNDRhNGQ4ZWI3OSIsImNsaWVudF9pZCI6InBjIn0.JnMCg-o5QTzStN1Uz4PVqb9nVAfm-5G7gNPdssG3fwQ'}
+        ====================================================== END
+INFO - 2023-05-11 09:44:54,735 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 09:44:56,817 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 09:46:24,298 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDkwOTI2ODUsImV4cCI6MTY4MzgwOTA5MiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImI3NmM3N2I1LTQ1ZjYtNDQzNS1hMmViLThjNDRhNGQ4ZWI3OSIsImNsaWVudF9pZCI6InBjIn0.JnMCg-o5QTzStN1Uz4PVqb9nVAfm-5G7gNPdssG3fwQ'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:46:51,191 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDkwOTI2ODUsImV4cCI6MTY4MzgwOTA5MiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImI3NmM3N2I1LTQ1ZjYtNDQzNS1hMmViLThjNDRhNGQ4ZWI3OSIsImNsaWVudF9pZCI6InBjIn0.JnMCg-o5QTzStN1Uz4PVqb9nVAfm-5G7gNPdssG3fwQ'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683769587840,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:54:35,955 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDk2NzU5ODUsImV4cCI6MTY4MzgwOTY3NSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjFmZTM5YTQzLWVlNDktNDk1Zi05ZDM5LWNlMjBmOWUxZDIyOCIsImNsaWVudF9pZCI6InBjIn0.XLWZh64Y1w0Vj4oyNRymdlBGtf8VIylSxPPvM8J7fMI'}
+        ====================================================== END
+INFO - 2023-05-11 09:54:38,036 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 09:54:40,121 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 09:54:40,186 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDk2NzU5ODUsImV4cCI6MTY4MzgwOTY3NSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjFmZTM5YTQzLWVlNDktNDk1Zi05ZDM5LWNlMjBmOWUxZDIyOCIsImNsaWVudF9pZCI6InBjIn0.XLWZh64Y1w0Vj4oyNRymdlBGtf8VIylSxPPvM8J7fMI'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:54:40,235 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDk2NzU5ODUsImV4cCI6MTY4MzgwOTY3NSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjFmZTM5YTQzLWVlNDktNDk1Zi05ZDM5LWNlMjBmOWUxZDIyOCIsImNsaWVudF9pZCI6InBjIn0.XLWZh64Y1w0Vj4oyNRymdlBGtf8VIylSxPPvM8J7fMI'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683770080290,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:54:48,706 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDk2NzU5ODUsImV4cCI6MTY4MzgwOTY3NSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjFmZTM5YTQzLWVlNDktNDk1Zi05ZDM5LWNlMjBmOWUxZDIyOCIsImNsaWVudF9pZCI6InBjIn0.XLWZh64Y1w0Vj4oyNRymdlBGtf8VIylSxPPvM8J7fMI', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:54:57,208 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 09:54:57,209 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 3
+INFO - 2023-05-11 09:54:57,209 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 09:54:57,209 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 4
+INFO - 2023-05-11 09:54:57,209 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 09:54:57,209 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 22.07 s
+INFO - 2023-05-11 09:54:57,209 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 42.86 %
+INFO - 2023-05-11 09:57:49,538 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDk4Njk1MzgsImV4cCI6MTY4MzgwOTg2OSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjllYjYzNTVlLTQ3OTQtNDAwZS05ZDMwLTllNTIzNjVhYTA1ZiIsImNsaWVudF9pZCI6InBjIn0.nZHB-V23zAOycuHGQ0hBWsIPgNvWT64Gst7IKtFnxcE'}
+        ====================================================== END
+INFO - 2023-05-11 09:57:51,632 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 09:57:53,763 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 09:57:53,822 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDk4Njk1MzgsImV4cCI6MTY4MzgwOTg2OSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjllYjYzNTVlLTQ3OTQtNDAwZS05ZDMwLTllNTIzNjVhYTA1ZiIsImNsaWVudF9pZCI6InBjIn0.nZHB-V23zAOycuHGQ0hBWsIPgNvWT64Gst7IKtFnxcE'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:57:53,866 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDk4Njk1MzgsImV4cCI6MTY4MzgwOTg2OSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjllYjYzNTVlLTQ3OTQtNDAwZS05ZDMwLTllNTIzNjVhYTA1ZiIsImNsaWVudF9pZCI6InBjIn0.nZHB-V23zAOycuHGQ0hBWsIPgNvWT64Gst7IKtFnxcE'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683770273923,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:58:02,342 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MDk4Njk1MzgsImV4cCI6MTY4MzgwOTg2OSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjllYjYzNTVlLTQ3OTQtNDAwZS05ZDMwLTllNTIzNjVhYTA1ZiIsImNsaWVudF9pZCI6InBjIn0.nZHB-V23zAOycuHGQ0hBWsIPgNvWT64Gst7IKtFnxcE', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 09:58:10,930 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 09:58:10,930 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 3
+INFO - 2023-05-11 09:58:10,930 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 09:58:10,930 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 4
+INFO - 2023-05-11 09:58:10,930 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 09:58:10,930 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 22.13 s
+INFO - 2023-05-11 09:58:10,930 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 42.86 %
+INFO - 2023-05-11 10:11:50,869 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTA3MTA5MDYsImV4cCI6MTY4MzgxMDcxMCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjUwMjc4MWU2LWQ3MWYtNDUxOS1hOTk4LTYxMmQ0MmZlNTQ3NiIsImNsaWVudF9pZCI6InBjIn0.9X9N8dOMuxKmV1x3J-65vqvvGR2V1Feev8U59rwONGo'}
+        ====================================================== END
+INFO - 2023-05-11 10:11:52,942 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:11:55,039 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:11:55,090 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTA3MTA5MDYsImV4cCI6MTY4MzgxMDcxMCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjUwMjc4MWU2LWQ3MWYtNDUxOS1hOTk4LTYxMmQ0MmZlNTQ3NiIsImNsaWVudF9pZCI6InBjIn0.9X9N8dOMuxKmV1x3J-65vqvvGR2V1Feev8U59rwONGo'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:11:55,135 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTA3MTA5MDYsImV4cCI6MTY4MzgxMDcxMCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjUwMjc4MWU2LWQ3MWYtNDUxOS1hOTk4LTYxMmQ0MmZlNTQ3NiIsImNsaWVudF9pZCI6InBjIn0.9X9N8dOMuxKmV1x3J-65vqvvGR2V1Feev8U59rwONGo'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683771115194,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:12:03,694 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTA3MTA5MDYsImV4cCI6MTY4MzgxMDcxMCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjUwMjc4MWU2LWQ3MWYtNDUxOS1hOTk4LTYxMmQ0MmZlNTQ3NiIsImNsaWVudF9pZCI6InBjIn0.9X9N8dOMuxKmV1x3J-65vqvvGR2V1Feev8U59rwONGo', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:12:12,169 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:12:12,169 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 3
+INFO - 2023-05-11 10:12:12,169 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:12:12,169 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 4
+INFO - 2023-05-11 10:12:12,170 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:12:12,170 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 22.12 s
+INFO - 2023-05-11 10:12:12,170 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 42.86 %
+INFO - 2023-05-11 10:15:34,803 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTA5MzQ4MjgsImV4cCI6MTY4MzgxMDkzNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjMxMWRjYmIzLTU4NzAtNDZlNy1iNmU1LTVlMTQwMTAxYWRhZCIsImNsaWVudF9pZCI6InBjIn0.o1A46SQl3ac0YPz-YbGmagBpS9me5ed7G8otv9DSZOc'}
+        ====================================================== END
+INFO - 2023-05-11 10:15:36,871 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:15:38,954 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:15:43,341 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTA5MzQ4MjgsImV4cCI6MTY4MzgxMDkzNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjMxMWRjYmIzLTU4NzAtNDZlNy1iNmU1LTVlMTQwMTAxYWRhZCIsImNsaWVudF9pZCI6InBjIn0.o1A46SQl3ac0YPz-YbGmagBpS9me5ed7G8otv9DSZOc'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683771343400,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:16:04,392 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:16:04,393 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 1
+INFO - 2023-05-11 10:16:04,393 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:16:04,393 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 6
+INFO - 2023-05-11 10:16:04,393 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:16:04,393 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 30.31 s
+INFO - 2023-05-11 10:16:04,394 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 14.29 %
+INFO - 2023-05-11 10:16:42,467 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEwMDI1MDQsImV4cCI6MTY4MzgxMTAwMiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImZjNTg3YTVlLThjNzEtNGU2Yy04YTk3LTQwODljNWVjMDUyYSIsImNsaWVudF9pZCI6InBjIn0.peyjrVlkozdQ-8BPzq5c0_fpSGYRUXFJl0LVDrJnsO4'}
+        ====================================================== END
+INFO - 2023-05-11 10:16:44,547 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:16:46,643 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:16:46,702 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEwMDI1MDQsImV4cCI6MTY4MzgxMTAwMiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImZjNTg3YTVlLThjNzEtNGU2Yy04YTk3LTQwODljNWVjMDUyYSIsImNsaWVudF9pZCI6InBjIn0.peyjrVlkozdQ-8BPzq5c0_fpSGYRUXFJl0LVDrJnsO4'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:16:46,774 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEwMDI1MDQsImV4cCI6MTY4MzgxMTAwMiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImZjNTg3YTVlLThjNzEtNGU2Yy04YTk3LTQwODljNWVjMDUyYSIsImNsaWVudF9pZCI6InBjIn0.peyjrVlkozdQ-8BPzq5c0_fpSGYRUXFJl0LVDrJnsO4'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683771406826,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:16:55,351 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEwMDI1MDQsImV4cCI6MTY4MzgxMTAwMiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImZjNTg3YTVlLThjNzEtNGU2Yy04YTk3LTQwODljNWVjMDUyYSIsImNsaWVudF9pZCI6InBjIn0.peyjrVlkozdQ-8BPzq5c0_fpSGYRUXFJl0LVDrJnsO4', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:17:03,808 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:17:03,808 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 3
+INFO - 2023-05-11 10:17:03,808 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:17:03,809 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 4
+INFO - 2023-05-11 10:17:03,809 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:17:03,809 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 22.00 s
+INFO - 2023-05-11 10:17:03,809 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 42.86 %
+INFO - 2023-05-11 10:19:28,867 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTExNjg5MTIsImV4cCI6MTY4MzgxMTE2OCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjI0ZDEyYTE3LTllM2EtNDJjNC04NDc5LTQxYzU5MTg4YzJkMiIsImNsaWVudF9pZCI6InBjIn0.kfi-DfEJhBlRFURATmWTvBNyCAZI_EL4kusiQ3edBa0'}
+        ====================================================== END
+INFO - 2023-05-11 10:19:30,943 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:19:33,043 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:19:33,115 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTExNjg5MTIsImV4cCI6MTY4MzgxMTE2OCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjI0ZDEyYTE3LTllM2EtNDJjNC04NDc5LTQxYzU5MTg4YzJkMiIsImNsaWVudF9pZCI6InBjIn0.kfi-DfEJhBlRFURATmWTvBNyCAZI_EL4kusiQ3edBa0'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:19:33,174 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTExNjg5MTIsImV4cCI6MTY4MzgxMTE2OCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjI0ZDEyYTE3LTllM2EtNDJjNC04NDc5LTQxYzU5MTg4YzJkMiIsImNsaWVudF9pZCI6InBjIn0.kfi-DfEJhBlRFURATmWTvBNyCAZI_EL4kusiQ3edBa0'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683771573236,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:19:41,675 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTExNjg5MTIsImV4cCI6MTY4MzgxMTE2OCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjI0ZDEyYTE3LTllM2EtNDJjNC04NDc5LTQxYzU5MTg4YzJkMiIsImNsaWVudF9pZCI6InBjIn0.kfi-DfEJhBlRFURATmWTvBNyCAZI_EL4kusiQ3edBa0', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:19:50,157 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:19:50,157 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 3
+INFO - 2023-05-11 10:19:50,157 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:19:50,157 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 4
+INFO - 2023-05-11 10:19:50,157 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:19:50,157 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 22.01 s
+INFO - 2023-05-11 10:19:50,157 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 42.86 %
+INFO - 2023-05-11 10:21:16,820 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEyNzY4NjMsImV4cCI6MTY4MzgxMTI3NiwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImM1NmQwNzI0LWE4MjAtNGNjNS05NWI5LWFjNmMxNzc0ZjU3NCIsImNsaWVudF9pZCI6InBjIn0.ltuPWCa-aXSBnP8DnxQb21FLSKX2Fh-DrbkilnLxrKI'}
+        ====================================================== END
+INFO - 2023-05-11 10:21:43,475 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEzMDM1MTEsImV4cCI6MTY4MzgxMTMwMywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImFjN2Q3Y2NiLTQ4MmYtNGUxNi05NTY4LWYyOTJkYTI5Njk2OCIsImNsaWVudF9pZCI6InBjIn0.5kZn6owEqDajODYDjbf7O8PmO13LGbyeaKHe8vw_Q8s'}
+        ====================================================== END
+INFO - 2023-05-11 10:21:45,557 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:21:47,649 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:21:47,717 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEzMDM1MTEsImV4cCI6MTY4MzgxMTMwMywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImFjN2Q3Y2NiLTQ4MmYtNGUxNi05NTY4LWYyOTJkYTI5Njk2OCIsImNsaWVudF9pZCI6InBjIn0.5kZn6owEqDajODYDjbf7O8PmO13LGbyeaKHe8vw_Q8s'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:21:47,761 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEzMDM1MTEsImV4cCI6MTY4MzgxMTMwMywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImFjN2Q3Y2NiLTQ4MmYtNGUxNi05NTY4LWYyOTJkYTI5Njk2OCIsImNsaWVudF9pZCI6InBjIn0.5kZn6owEqDajODYDjbf7O8PmO13LGbyeaKHe8vw_Q8s'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683771707825,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:21:56,238 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTEzMDM1MTEsImV4cCI6MTY4MzgxMTMwMywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6ImFjN2Q3Y2NiLTQ4MmYtNGUxNi05NTY4LWYyOTJkYTI5Njk2OCIsImNsaWVudF9pZCI6InBjIn0.5kZn6owEqDajODYDjbf7O8PmO13LGbyeaKHe8vw_Q8s', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:22:04,699 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:22:04,700 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 3
+INFO - 2023-05-11 10:22:04,700 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:22:04,700 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 4
+INFO - 2023-05-11 10:22:04,700 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:22:04,700 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 21.92 s
+INFO - 2023-05-11 10:22:04,700 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 42.86 %
+INFO - 2023-05-11 10:24:41,646 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE0ODE2OTAsImV4cCI6MTY4MzgxMTQ4MSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1NDJlMWM5LWZmZmItNGEzOC1hMWMxLWEyZWEzMzVkNDUyMSIsImNsaWVudF9pZCI6InBjIn0.fw3jHny9a1NDSa8U6oIBGKWJQehXzxX7WKCP3VnsHSA'}
+        ====================================================== END
+INFO - 2023-05-11 10:24:43,717 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:24:45,810 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:24:45,865 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE0ODE2OTAsImV4cCI6MTY4MzgxMTQ4MSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1NDJlMWM5LWZmZmItNGEzOC1hMWMxLWEyZWEzMzVkNDUyMSIsImNsaWVudF9pZCI6InBjIn0.fw3jHny9a1NDSa8U6oIBGKWJQehXzxX7WKCP3VnsHSA'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:24:45,925 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE0ODE2OTAsImV4cCI6MTY4MzgxMTQ4MSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1NDJlMWM5LWZmZmItNGEzOC1hMWMxLWEyZWEzMzVkNDUyMSIsImNsaWVudF9pZCI6InBjIn0.fw3jHny9a1NDSa8U6oIBGKWJQehXzxX7WKCP3VnsHSA'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683771885985,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:24:50,184 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目余额表 
+        请求路径: http://112.124.200.126/api/zz/zz/account/subjectBalanceV2/queryList?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE0ODE2OTAsImV4cCI6MTY4MzgxMTQ4MSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1NDJlMWM5LWZmZmItNGEzOC1hMWMxLWEyZWEzMzVkNDUyMSIsImNsaWVudF9pZCI6InBjIn0.fw3jHny9a1NDSa8U6oIBGKWJQehXzxX7WKCP3VnsHSA', 'Content-Length': '278', 'Content-Type': 'application/json'} 
+        请求数据: b'{"pageNum": 1, "pageSize": 20, "sort": null, "beginStageNum": "202211", "endStageNum": "202211", "isAssist": "N", "isFooter": "N", "isShowNum": "N", "lazySubjectAll": "N", "excludeProfitLoss": "N", "currencyCode": "ALL", "beginLevelNum": 4, "endLevelNum": 10, "subjectLevel": 1}' 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"DBA2BC8689FA4C2AB4AF7E28D3556290","unicode":"1101_N","subjectId":"7192C1C7D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110101_RMB","accountStageNum":null,"isFooter":"N","subjectLevel":1,"category":"资产","subjectCode":"1101","subjectName":"短期投资","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":85.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":100.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":100.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110101_RMB","110110_RMB"],"children":[{"id":"58E694486288442CA7E8940C7AB15261","unicode":"110101_N","subjectId":"71355BFDD83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110101_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"110101","subjectName":"股票","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":-15.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":0.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110101_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"7192C1C7D83211ED9CEF00163E159041"},{"id":"8773FD4BFB1948538BBC327AE5AD9F50","unicode":"110110_N","subjectId":"71570BEBD83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110110_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"110110","subjectName":"其他","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":100.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":100.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":100.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110110_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"7192C1C7D83211ED9CEF00163E159041"}],"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"-1"},{"id":"16C591254F43463C84C4168C145868E1","unicode":"1604_N","subjectId":"71529BA5D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160401_g1_RMB","accountStageNum":null,"isFooter":"N","subjectLevel":1,"category":"资产","subjectCode":"1604","subjectName":"在建工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":15.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0.00,"originalYearBorrowAmount":3.00,"yearBorrowAmount":15.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0.00,"originalBorrowAmount":3.00,"borrowAmount":15.00,"borrowNum":6.00,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":15.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["160401_g1_RMB","160401_g2_RMB","160402_g1_c1_RMB","160403_g1_HKD"],"children":[{"id":"5B831D4B186C449693C168065B1924E1","unicode":"160401_N","subjectId":"71A9ADA2D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160401_g1_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160401","subjectName":"建筑工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":6.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0.00,"originalYearBorrowAmount":0.00,"yearBorrowAmount":6.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0.00,"originalBorrowAmount":0.00,"borrowAmount":6.00,"borrowNum":6.00,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":6.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160401_g1_RMB","160401_g2_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"},{"id":"03DE9E543BF94C2DA43A527294316701","unicode":"160402_N","subjectId":"70DB15C8D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160402_g1_c1_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160402","subjectName":"安装工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":3.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":3.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":3.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":3.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160402_g1_c1_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"},{"id":"79DE1C175347476EAB9FD8D5DF2712AA","unicode":"160403_N","subjectId":"71120251D83211ED9CEF00163E159041","currencyId":"705E35C9D83211ED9CEF00163E159041","currencyCode":"HKD","detailSubjectCode":"160403_g1_HKD","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160403","subjectName":"技术改造工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":6.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":3.00,"yearBorrowAmount":6.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":3.00,"borrowAmount":6.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":6.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160403_g1_HKD"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"}],"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"-1"},{"id":"699970E0C7AA4B04BA8845B5086B0234","unicode":null,"subjectId":null,"currencyId":null,"currencyCode":null,"detailSubjectCode":null,"accountStageNum":null,"isFooter":null,"subjectLevel":null,"category":null,"subjectCode":null,"subjectName":"总计","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":null,"initialLoanAmount":null,"initialLoanNum":null,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":15.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0.00,"originalYearBorrowAmount":3.00,"yearBorrowAmount":15.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0.00,"originalBorrowAmount":3.00,"borrowAmount":100.00,"borrowNum":6.00,"originalLoanAmount":null,"loanAmount":null,"loanNum":null,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":null,"profitLossAmount":null,"profitLossAmountOriginalCurrency":null,"subjectBorrowBalance":115.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":null,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":null,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":null,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":null,"initialYearAmount":100.00,"isAssistItem":null,"isAssist":null,"detailSubjectCodeList":null,"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":null}],"message":null,"code":"0000","hasNext":false,"now":1683771890232,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:24:50,277 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE0ODE2OTAsImV4cCI6MTY4MzgxMTQ4MSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1NDJlMWM5LWZmZmItNGEzOC1hMWMxLWEyZWEzMzVkNDUyMSIsImNsaWVudF9pZCI6InBjIn0.fw3jHny9a1NDSa8U6oIBGKWJQehXzxX7WKCP3VnsHSA', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:24:50,326 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE0ODE2OTAsImV4cCI6MTY4MzgxMTQ4MSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1NDJlMWM5LWZmZmItNGEzOC1hMWMxLWEyZWEzMzVkNDUyMSIsImNsaWVudF9pZCI6InBjIn0.fw3jHny9a1NDSa8U6oIBGKWJQehXzxX7WKCP3VnsHSA'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683771890392,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:24:50,378 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1901 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1901 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE0ODE2OTAsImV4cCI6MTY4MzgxMTQ4MSwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1NDJlMWM5LWZmZmItNGEzOC1hMWMxLWEyZWEzMzVkNDUyMSIsImNsaWVudF9pZCI6InBjIn0.fw3jHny9a1NDSa8U6oIBGKWJQehXzxX7WKCP3VnsHSA'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"70B25FCFD83211ED9CEF00163E159041","createby":"jm1@jst.com","updateby":"jm1@jst.com","deleted":false,"version":0,"updated":"2023-04-11 14:31:06","created":"2023-04-11 14:31:06","extData":{},"pid":"-1","longCode":"00F","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1901","subjectName":"待处理财产损溢","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":"N","isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":"0","rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683771890441,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:24:50,387 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:24:50,387 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 6
+INFO - 2023-05-11 10:24:50,387 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:24:50,387 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 1
+INFO - 2023-05-11 10:24:50,388 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:24:50,388 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 9.53 s
+INFO - 2023-05-11 10:24:50,388 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 85.71 %
+INFO - 2023-05-11 10:27:27,460 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE2NDc1MDMsImV4cCI6MTY4MzgxMTY0NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjkwN2ZhNzcwLWI5M2MtNDBiMi05YzRhLTRmNmFlYzU2YzM1ZSIsImNsaWVudF9pZCI6InBjIn0.4b8rINLoMejDrMHQtmGeLI5dfDtwfOR7CqPjCQJQhdQ'}
+        ====================================================== END
+INFO - 2023-05-11 10:27:29,533 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:27:31,616 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:27:31,677 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE2NDc1MDMsImV4cCI6MTY4MzgxMTY0NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjkwN2ZhNzcwLWI5M2MtNDBiMi05YzRhLTRmNmFlYzU2YzM1ZSIsImNsaWVudF9pZCI6InBjIn0.4b8rINLoMejDrMHQtmGeLI5dfDtwfOR7CqPjCQJQhdQ'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:27:31,719 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE2NDc1MDMsImV4cCI6MTY4MzgxMTY0NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjkwN2ZhNzcwLWI5M2MtNDBiMi05YzRhLTRmNmFlYzU2YzM1ZSIsImNsaWVudF9pZCI6InBjIn0.4b8rINLoMejDrMHQtmGeLI5dfDtwfOR7CqPjCQJQhdQ'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683772051786,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:27:40,179 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE2NDc1MDMsImV4cCI6MTY4MzgxMTY0NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjkwN2ZhNzcwLWI5M2MtNDBiMi05YzRhLTRmNmFlYzU2YzM1ZSIsImNsaWVudF9pZCI6InBjIn0.4b8rINLoMejDrMHQtmGeLI5dfDtwfOR7CqPjCQJQhdQ', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:27:40,233 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE2NDc1MDMsImV4cCI6MTY4MzgxMTY0NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjkwN2ZhNzcwLWI5M2MtNDBiMi05YzRhLTRmNmFlYzU2YzM1ZSIsImNsaWVudF9pZCI6InBjIn0.4b8rINLoMejDrMHQtmGeLI5dfDtwfOR7CqPjCQJQhdQ'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683772060295,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:27:40,284 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1901 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1901 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE2NDc1MDMsImV4cCI6MTY4MzgxMTY0NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjkwN2ZhNzcwLWI5M2MtNDBiMi05YzRhLTRmNmFlYzU2YzM1ZSIsImNsaWVudF9pZCI6InBjIn0.4b8rINLoMejDrMHQtmGeLI5dfDtwfOR7CqPjCQJQhdQ'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"70B25FCFD83211ED9CEF00163E159041","createby":"jm1@jst.com","updateby":"jm1@jst.com","deleted":false,"version":0,"updated":"2023-04-11 14:31:06","created":"2023-04-11 14:31:06","extData":{},"pid":"-1","longCode":"00F","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1901","subjectName":"待处理财产损溢","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":"N","isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":"0","rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683772060349,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:27:40,316 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:27:40,316 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 5
+INFO - 2023-05-11 10:27:40,316 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:27:40,317 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 2
+INFO - 2023-05-11 10:27:40,317 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:27:40,317 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 13.71 s
+INFO - 2023-05-11 10:27:40,317 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 71.43 %
+INFO - 2023-05-11 10:30:24,546 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE4MjQ1NzQsImV4cCI6MTY4MzgxMTgyNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjYxZDA5NzI0LTQ0NTctNDliYy1iZWQ3LWJmNmRiZjZlYzQ4OSIsImNsaWVudF9pZCI6InBjIn0.hE6u5ZViZOrjc0LdCndcPPuA82cPlwYL_k3dINJ58RY'}
+        ====================================================== END
+INFO - 2023-05-11 10:30:26,601 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:30:28,684 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:30:28,740 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE4MjQ1NzQsImV4cCI6MTY4MzgxMTgyNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjYxZDA5NzI0LTQ0NTctNDliYy1iZWQ3LWJmNmRiZjZlYzQ4OSIsImNsaWVudF9pZCI6InBjIn0.hE6u5ZViZOrjc0LdCndcPPuA82cPlwYL_k3dINJ58RY'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:30:28,791 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE4MjQ1NzQsImV4cCI6MTY4MzgxMTgyNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjYxZDA5NzI0LTQ0NTctNDliYy1iZWQ3LWJmNmRiZjZlYzQ4OSIsImNsaWVudF9pZCI6InBjIn0.hE6u5ZViZOrjc0LdCndcPPuA82cPlwYL_k3dINJ58RY'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683772228854,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:30:37,304 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE4MjQ1NzQsImV4cCI6MTY4MzgxMTgyNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjYxZDA5NzI0LTQ0NTctNDliYy1iZWQ3LWJmNmRiZjZlYzQ4OSIsImNsaWVudF9pZCI6InBjIn0.hE6u5ZViZOrjc0LdCndcPPuA82cPlwYL_k3dINJ58RY', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:30:37,376 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE4MjQ1NzQsImV4cCI6MTY4MzgxMTgyNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjYxZDA5NzI0LTQ0NTctNDliYy1iZWQ3LWJmNmRiZjZlYzQ4OSIsImNsaWVudF9pZCI6InBjIn0.hE6u5ZViZOrjc0LdCndcPPuA82cPlwYL_k3dINJ58RY'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683772237436,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:30:37,434 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1901 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1901 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTE4MjQ1NzQsImV4cCI6MTY4MzgxMTgyNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjYxZDA5NzI0LTQ0NTctNDliYy1iZWQ3LWJmNmRiZjZlYzQ4OSIsImNsaWVudF9pZCI6InBjIn0.hE6u5ZViZOrjc0LdCndcPPuA82cPlwYL_k3dINJ58RY'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"70B25FCFD83211ED9CEF00163E159041","createby":"jm1@jst.com","updateby":"jm1@jst.com","deleted":false,"version":0,"updated":"2023-04-11 14:31:06","created":"2023-04-11 14:31:06","extData":{},"pid":"-1","longCode":"00F","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1901","subjectName":"待处理财产损溢","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":"N","isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":"0","rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683772237495,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:30:37,462 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:30:37,463 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 5
+INFO - 2023-05-11 10:30:37,464 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:30:37,464 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 2
+INFO - 2023-05-11 10:30:37,464 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:30:37,464 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 13.72 s
+INFO - 2023-05-11 10:30:37,465 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 71.43 %
+INFO - 2023-05-11 10:43:24,076 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTI2MDQwOTUsImV4cCI6MTY4MzgxMjYwNCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjAzYjU1MzQyLWY5ZGMtNDRmZC1iMWIzLTYzYmY4NWFlN2JiZSIsImNsaWVudF9pZCI6InBjIn0.UqI5EQqL9kHpKbu63vwcnPPSrQHuX1ZK0WqhfeMlphE'}
+        ====================================================== END
+INFO - 2023-05-11 10:43:26,414 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:43:28,808 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:43:59,356 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:43:59,357 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 0
+INFO - 2023-05-11 10:43:59,357 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:43:59,357 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 7
+INFO - 2023-05-11 10:43:59,357 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:43:59,357 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 36.04 s
+INFO - 2023-05-11 10:43:59,357 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 0.00 %
+INFO - 2023-05-11 10:51:10,171 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTMwNzAyMTYsImV4cCI6MTY4MzgxMzA3MCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg1M2I0ZDFjLTY4NDUtNDYzOS05N2ZlLTBhMjlmOTFmOGVlMyIsImNsaWVudF9pZCI6InBjIn0.eC_7iJSr5Urxw5YrESYh3LV6Gi1p_dBGKFx6mSgIP7w'}
+        ====================================================== END
+INFO - 2023-05-11 10:51:12,257 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 10:51:14,343 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 10:51:14,398 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTMwNzAyMTYsImV4cCI6MTY4MzgxMzA3MCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg1M2I0ZDFjLTY4NDUtNDYzOS05N2ZlLTBhMjlmOTFmOGVlMyIsImNsaWVudF9pZCI6InBjIn0.eC_7iJSr5Urxw5YrESYh3LV6Gi1p_dBGKFx6mSgIP7w'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:51:14,452 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTMwNzAyMTYsImV4cCI6MTY4MzgxMzA3MCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg1M2I0ZDFjLTY4NDUtNDYzOS05N2ZlLTBhMjlmOTFmOGVlMyIsImNsaWVudF9pZCI6InBjIn0.eC_7iJSr5Urxw5YrESYh3LV6Gi1p_dBGKFx6mSgIP7w'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683773474521,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:51:18,676 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目余额表 
+        请求路径: http://112.124.200.126/api/zz/zz/account/subjectBalanceV2/queryList?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTMwNzAyMTYsImV4cCI6MTY4MzgxMzA3MCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg1M2I0ZDFjLTY4NDUtNDYzOS05N2ZlLTBhMjlmOTFmOGVlMyIsImNsaWVudF9pZCI6InBjIn0.eC_7iJSr5Urxw5YrESYh3LV6Gi1p_dBGKFx6mSgIP7w', 'Content-Length': '278', 'Content-Type': 'application/json'} 
+        请求数据: b'{"pageNum": 1, "pageSize": 20, "sort": null, "beginStageNum": "202211", "endStageNum": "202211", "isAssist": "N", "isFooter": "N", "isShowNum": "N", "lazySubjectAll": "N", "excludeProfitLoss": "N", "currencyCode": "ALL", "beginLevelNum": 4, "endLevelNum": 10, "subjectLevel": 1}' 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"E795ACE1901A45FE89702F62A340BA5C","unicode":"1101_N","subjectId":"7192C1C7D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110101_RMB","accountStageNum":null,"isFooter":"N","subjectLevel":1,"category":"资产","subjectCode":"1101","subjectName":"短期投资","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":85.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":100.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":100.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110101_RMB","110110_RMB"],"children":[{"id":"78954E174F864323A8F6A9D20DE4AA28","unicode":"110101_N","subjectId":"71355BFDD83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110101_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"110101","subjectName":"股票","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":-15.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":0.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110101_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"7192C1C7D83211ED9CEF00163E159041"},{"id":"F5FC988A08C04CE78C086C98469B4330","unicode":"110110_N","subjectId":"71570BEBD83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110110_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"110110","subjectName":"其他","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":100.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":100.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":100.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110110_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"7192C1C7D83211ED9CEF00163E159041"}],"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"-1"},{"id":"D78AEC3FE54249FDB2029DD6E5400649","unicode":"1604_N","subjectId":"71529BA5D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160401_g1_RMB","accountStageNum":null,"isFooter":"N","subjectLevel":1,"category":"资产","subjectCode":"1604","subjectName":"在建工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":15.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0.00,"originalYearBorrowAmount":3.00,"yearBorrowAmount":15.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0.00,"originalBorrowAmount":3.00,"borrowAmount":15.00,"borrowNum":6.00,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":15.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["160401_g1_RMB","160401_g2_RMB","160402_g1_c1_RMB","160403_g1_HKD"],"children":[{"id":"C732DEA2E06C48BFA7775B6D90CF6C2E","unicode":"160401_N","subjectId":"71A9ADA2D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160401_g1_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160401","subjectName":"建筑工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":6.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0.00,"originalYearBorrowAmount":0.00,"yearBorrowAmount":6.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0.00,"originalBorrowAmount":0.00,"borrowAmount":6.00,"borrowNum":6.00,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":6.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160401_g1_RMB","160401_g2_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"},{"id":"6EEF95505D7E4E239124BFAACDBF073C","unicode":"160402_N","subjectId":"70DB15C8D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160402_g1_c1_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160402","subjectName":"安装工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":3.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":3.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":3.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":3.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160402_g1_c1_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"},{"id":"B431895E5DEA48279541AE7CA2F9896A","unicode":"160403_N","subjectId":"71120251D83211ED9CEF00163E159041","currencyId":"705E35C9D83211ED9CEF00163E159041","currencyCode":"HKD","detailSubjectCode":"160403_g1_HKD","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160403","subjectName":"技术改造工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":6.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":3.00,"yearBorrowAmount":6.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":3.00,"borrowAmount":6.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":6.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160403_g1_HKD"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"}],"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"-1"},{"id":"7D5E4B00E48C433B959D4C587A112DD8","unicode":null,"subjectId":null,"currencyId":null,"currencyCode":null,"detailSubjectCode":null,"accountStageNum":null,"isFooter":null,"subjectLevel":null,"category":null,"subjectCode":null,"subjectName":"总计","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":null,"initialLoanAmount":null,"initialLoanNum":null,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":15.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0.00,"originalYearBorrowAmount":3.00,"yearBorrowAmount":15.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0.00,"originalBorrowAmount":3.00,"borrowAmount":100.00,"borrowNum":6.00,"originalLoanAmount":null,"loanAmount":null,"loanNum":null,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":null,"profitLossAmount":null,"profitLossAmountOriginalCurrency":null,"subjectBorrowBalance":115.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":null,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":null,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":null,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":null,"initialYearAmount":100.00,"isAssistItem":null,"isAssist":null,"detailSubjectCodeList":null,"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":null}],"message":null,"code":"0000","hasNext":false,"now":1683773478743,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:51:18,737 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTMwNzAyMTYsImV4cCI6MTY4MzgxMzA3MCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg1M2I0ZDFjLTY4NDUtNDYzOS05N2ZlLTBhMjlmOTFmOGVlMyIsImNsaWVudF9pZCI6InBjIn0.eC_7iJSr5Urxw5YrESYh3LV6Gi1p_dBGKFx6mSgIP7w', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:51:18,783 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTMwNzAyMTYsImV4cCI6MTY4MzgxMzA3MCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg1M2I0ZDFjLTY4NDUtNDYzOS05N2ZlLTBhMjlmOTFmOGVlMyIsImNsaWVudF9pZCI6InBjIn0.eC_7iJSr5Urxw5YrESYh3LV6Gi1p_dBGKFx6mSgIP7w'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683773478856,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:51:18,831 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1901 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1901 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTMwNzAyMTYsImV4cCI6MTY4MzgxMzA3MCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg1M2I0ZDFjLTY4NDUtNDYzOS05N2ZlLTBhMjlmOTFmOGVlMyIsImNsaWVudF9pZCI6InBjIn0.eC_7iJSr5Urxw5YrESYh3LV6Gi1p_dBGKFx6mSgIP7w'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"70B25FCFD83211ED9CEF00163E159041","createby":"jm1@jst.com","updateby":"jm1@jst.com","deleted":false,"version":0,"updated":"2023-04-11 14:31:06","created":"2023-04-11 14:31:06","extData":{},"pid":"-1","longCode":"00F","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1901","subjectName":"待处理财产损溢","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":"N","isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":"0","rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683773478904,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 10:51:18,837 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 10:51:18,837 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 6
+INFO - 2023-05-11 10:51:18,837 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 10:51:18,837 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 1
+INFO - 2023-05-11 10:51:18,837 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 10:51:18,838 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 9.45 s
+INFO - 2023-05-11 10:51:18,838 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 85.71 %
+INFO - 2023-05-11 11:19:27,537 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3Njc1OTMsImV4cCI6MTY4MzgxNDc2NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg5N2RmYmRlLWZkYzYtNDU5Ni05NjQ4LWUzMjNlMTQzM2U4OCIsImNsaWVudF9pZCI6InBjIn0.8Brff5Di0fvgAFK4yWeaeYpqvQV_N9pJQvi_6Q_-Cak'}
+        ====================================================== END
+INFO - 2023-05-11 11:19:29,592 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 11:19:31,675 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 11:19:31,754 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3Njc1OTMsImV4cCI6MTY4MzgxNDc2NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg5N2RmYmRlLWZkYzYtNDU5Ni05NjQ4LWUzMjNlMTQzM2U4OCIsImNsaWVudF9pZCI6InBjIn0.8Brff5Di0fvgAFK4yWeaeYpqvQV_N9pJQvi_6Q_-Cak'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 11:19:31,805 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3Njc1OTMsImV4cCI6MTY4MzgxNDc2NywiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6Ijg5N2RmYmRlLWZkYzYtNDU5Ni05NjQ4LWUzMjNlMTQzM2U4OCIsImNsaWVudF9pZCI6InBjIn0.8Brff5Di0fvgAFK4yWeaeYpqvQV_N9pJQvi_6Q_-Cak'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683775171886,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 11:19:35,728 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 11:19:35,729 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 2
+INFO - 2023-05-11 11:19:35,729 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 11:19:35,729 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 0
+INFO - 2023-05-11 11:19:35,729 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 11:19:35,729 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 8.89 s
+INFO - 2023-05-11 11:19:35,729 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 28.57 %
+INFO - 2023-05-11 11:19:44,213 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:76 begin=====================================================
+        登录成功，access_token = {'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3ODQyNzEsImV4cCI6MTY4MzgxNDc4NCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1YjlkNTNiLTRmYzQtNDYwMS04ZjEwLWJjZjM3NWJlMGRkYiIsImNsaWVudF9pZCI6InBjIn0.dwlPscNh0F5uiJknsK0BNeaivq5KR3sLdnp7_EoaZG8'}
+        ====================================================== END
+INFO - 2023-05-11 11:19:46,276 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:108 begin=====================================================
+        登录初始化成功
+        ====================================================== END
+INFO - 2023-05-11 11:19:48,391 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:initialize_control.py:141 begin=====================================================
+        加载商家账套信息成功
+        ====================================================== END
+INFO - 2023-05-11 11:19:48,453 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 账套 - 切换到指定账套 
+        请求路径: http://112.124.200.126/api/zz/zz/baseAccount/booking?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&id=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3ODQyNzEsImV4cCI6MTY4MzgxNDc4NCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1YjlkNTNiLTRmYzQtNDYwMS04ZjEwLWJjZjM3NWJlMGRkYiIsImNsaWVudF9pZCI6InBjIn0.dwlPscNh0F5uiJknsK0BNeaivq5KR3sLdnp7_EoaZG8'} 
+        请求数据: None 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 11:19:48,500 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3ODQyNzEsImV4cCI6MTY4MzgxNDc4NCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1YjlkNTNiLTRmYzQtNDYwMS04ZjEwLWJjZjM3NWJlMGRkYiIsImNsaWVudF9pZCI6InBjIn0.dwlPscNh0F5uiJknsK0BNeaivq5KR3sLdnp7_EoaZG8'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683775188582,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 11:19:52,716 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目余额表 
+        请求路径: http://112.124.200.126/api/zz/zz/account/subjectBalanceV2/queryList?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3ODQyNzEsImV4cCI6MTY4MzgxNDc4NCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1YjlkNTNiLTRmYzQtNDYwMS04ZjEwLWJjZjM3NWJlMGRkYiIsImNsaWVudF9pZCI6InBjIn0.dwlPscNh0F5uiJknsK0BNeaivq5KR3sLdnp7_EoaZG8', 'Content-Length': '278', 'Content-Type': 'application/json'} 
+        请求数据: b'{"pageNum": 1, "pageSize": 20, "sort": null, "beginStageNum": "202211", "endStageNum": "202211", "isAssist": "N", "isFooter": "N", "isShowNum": "N", "lazySubjectAll": "N", "excludeProfitLoss": "N", "currencyCode": "ALL", "beginLevelNum": 4, "endLevelNum": 10, "subjectLevel": 1}' 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"BCA7742F234E4B1FAA7BA9527B0DCC2F","unicode":"1101_N","subjectId":"7192C1C7D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110101_RMB","accountStageNum":null,"isFooter":"N","subjectLevel":1,"category":"资产","subjectCode":"1101","subjectName":"短期投资","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":85.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":100.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":100.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110101_RMB","110110_RMB"],"children":[{"id":"713841C15C9C445B9B96E48673E62C50","unicode":"110101_N","subjectId":"71355BFDD83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110101_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"110101","subjectName":"股票","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":-15.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":0.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110101_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"7192C1C7D83211ED9CEF00163E159041"},{"id":"0699AFFEB7F145A89484D1676DC19B5D","unicode":"110110_N","subjectId":"71570BEBD83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"110110_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"110110","subjectName":"其他","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":0.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":0.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":100.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":100.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":100.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["110110_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"7192C1C7D83211ED9CEF00163E159041"}],"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"-1"},{"id":"2234A9DCDE944FF982BC5FF81E46630F","unicode":"1604_N","subjectId":"71529BA5D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160401_g1_RMB","accountStageNum":null,"isFooter":"N","subjectLevel":1,"category":"资产","subjectCode":"1604","subjectName":"在建工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":15.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0.00,"originalYearBorrowAmount":3.00,"yearBorrowAmount":15.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0.00,"originalBorrowAmount":3.00,"borrowAmount":15.00,"borrowNum":6.00,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":15.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"N","detailSubjectCodeList":["160401_g1_RMB","160401_g2_RMB","160402_g1_c1_RMB","160403_g1_HKD"],"children":[{"id":"5672301294F7495CA397A2123453089F","unicode":"160401_N","subjectId":"71A9ADA2D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160401_g1_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160401","subjectName":"建筑工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":6.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0.00,"originalYearBorrowAmount":0.00,"yearBorrowAmount":6.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0.00,"originalBorrowAmount":0.00,"borrowAmount":6.00,"borrowNum":6.00,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":6.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160401_g1_RMB","160401_g2_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"},{"id":"EFA4682F7817408FB1761BD86A4FA6F4","unicode":"160402_N","subjectId":"70DB15C8D83211ED9CEF00163E159041","currencyId":"705DEDEED83211ED9CEF00163E159041","currencyCode":"RMB","detailSubjectCode":"160402_g1_c1_RMB","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160402","subjectName":"安装工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":0.00,"currentBorrowAmount":3.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":0.00,"yearBorrowAmount":3.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":0.00,"borrowAmount":3.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":3.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160402_g1_c1_RMB"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"},{"id":"9193DC2997324532901F82FD141CD94C","unicode":"160403_N","subjectId":"71120251D83211ED9CEF00163E159041","currencyId":"705E35C9D83211ED9CEF00163E159041","currencyCode":"HKD","detailSubjectCode":"160403_g1_HKD","accountStageNum":null,"isFooter":"Y","subjectLevel":2,"category":"资产","subjectCode":"160403","subjectName":"技术改造工程","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":0.00,"initialBorrowNum":0,"originalInitialLoanAmount":0,"initialLoanAmount":0,"initialLoanNum":0,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":6.00,"currentBorrowNum":0,"originalCurrentLoanAmount":0.00,"currentLoanAmount":0.00,"currentLoanNum":0,"originalYearBorrowAmount":3.00,"yearBorrowAmount":6.00,"yearBorrowNum":0,"originalYearLoanAmount":0.00,"yearLoanAmount":0.00,"yearLoanNum":0,"originalBorrowAmount":3.00,"borrowAmount":6.00,"borrowNum":0,"originalLoanAmount":0,"loanAmount":0,"loanNum":0,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":0,"profitLossAmount":0,"profitLossAmountOriginalCurrency":0,"subjectBorrowBalance":6.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":0,"subjectLoanBalance":0.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":0,"initialSubjectBorrowBalance":0.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":0,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":0,"initialYearAmount":0.00,"isAssistItem":"N","isAssist":"Y","detailSubjectCodeList":["160403_g1_HKD"],"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"71529BA5D83211ED9CEF00163E159041"}],"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":"-1"},{"id":"05BCE2BC3F93481CA3CD98BED2C0E91A","unicode":null,"subjectId":null,"currencyId":null,"currencyCode":null,"detailSubjectCode":null,"accountStageNum":null,"isFooter":null,"subjectLevel":null,"category":null,"subjectCode":null,"subjectName":"总计","subjectCodeName":null,"direct":0,"direction":null,"originalInitialBorrowAmount":0.00,"initialBorrowAmount":100.00,"initialBorrowNum":0.00,"originalInitialLoanAmount":null,"initialLoanAmount":null,"initialLoanNum":null,"originalCurrentBorrowAmount":3.00,"currentBorrowAmount":15.00,"currentBorrowNum":6.00,"originalCurrentLoanAmount":0.00,"currentLoanAmount":15.00,"currentLoanNum":0.00,"originalYearBorrowAmount":3.00,"yearBorrowAmount":15.00,"yearBorrowNum":6.00,"originalYearLoanAmount":0.00,"yearLoanAmount":15.00,"yearLoanNum":0.00,"originalBorrowAmount":3.00,"borrowAmount":100.00,"borrowNum":6.00,"originalLoanAmount":null,"loanAmount":null,"loanNum":null,"currentProfitLossQty":0.00,"currentProfitLossAmount":0.00,"currentProfitLossAmountOriginalCurrency":0.00,"yearProfitLossQty":0.00,"yearProfitLossAmount":0.00,"yearProfitLossAmountOriginalCurrency":0.00,"profitLossQty":null,"profitLossAmount":null,"profitLossAmountOriginalCurrency":null,"subjectBorrowBalance":115.00,"subjectBorrowNumBalance":null,"subjectBorrowOriginalBalance":null,"subjectLoanBalance":15.00,"subjectLoanNumBalance":null,"subjectLoanOriginalBalance":null,"initialSubjectBorrowBalance":100.00,"initialSubjectBorrowNumBalance":null,"initialSubjectBorrowOriginalBalance":null,"initialSubjectLoanBalance":0.00,"initialSubjectLoanNumBalance":null,"initialSubjectLoanOriginalBalance":null,"initialYearAmount":100.00,"isAssistItem":null,"isAssist":null,"detailSubjectCodeList":null,"children":null,"groupSubjectCode":null,"subjectAssistCode":null,"vsubjectCode":null,"psubjectId":null}],"message":null,"code":"0000","hasNext":false,"now":1683775192792,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 11:19:52,792 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 新增科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/insertChild?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C 
+        请求方式: POST 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3ODQyNzEsImV4cCI6MTY4MzgxNDc4NCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1YjlkNTNiLTRmYzQtNDYwMS04ZjEwLWJjZjM3NWJlMGRkYiIsImNsaWVudF9pZCI6InBjIn0.dwlPscNh0F5uiJknsK0BNeaivq5KR3sLdnp7_EoaZG8', 'Content-Length': '329', 'Content-Type': 'application/json'} 
+        请求数据: b'{"isCashFlowItem": "N", "active": "Y", "isFooter": "Y", "direct": 0, "pid": -1, "newSubjectCode": "1999", "subjectName": "1999\\u79d1\\u76ee", "category": "\\u8d44\\u4ea7", "isAssist": "N", "assistIdList": [], "customAssistIdList": [], "isForeignCurrency": "N", "isClosingExchangeRate": "N", "reckonMark": "N", "subjectCode": "1999"}' 
+        接口响应内容:  
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 11:19:52,845 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1999 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3ODQyNzEsImV4cCI6MTY4MzgxNDc4NCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1YjlkNTNiLTRmYzQtNDYwMS04ZjEwLWJjZjM3NWJlMGRkYiIsImNsaWVudF9pZCI6InBjIn0.dwlPscNh0F5uiJknsK0BNeaivq5KR3sLdnp7_EoaZG8'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"A7C1516B4CC641D0ACBF76CDBB062A9C","createby":"jm1@jst.com","updateby":null,"deleted":false,"version":0,"updated":"2023-05-09 18:14:49","created":"2023-05-09 18:14:49","extData":{},"pid":"-1","longCode":"53P","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1999","subjectName":"1999科目","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":null,"isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":null,"rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683775192927,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 11:19:52,890 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:log_decorator.py:34 
+ BEGIN ======================================================
+        清理api?: None 
+        用例标题: 接口调试 - 查询科目1901 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubjectV2/list?_A_C_I_D=3C71BC861B6843D28B583DD3F5E23E2C&category=%E8%B5%84%E4%BA%A7&extData%5B'search'%5D=1901 
+        请求方式: GET 
+        请求头: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlSWRzIjpbIkpTVCJdLCJ1c2VyX25hbWUiOiJqbTFAanN0LmNvbSIsInNjb3BlIjpbInRydXN0Il0sImV4cGlyYXRpb24iOjE2ODM4MTQ3ODQyNzEsImV4cCI6MTY4MzgxNDc4NCwiYXV0aG9yaXRpZXMiOlsiU1lTX0NVU1RPTUVSIl0sImp0aSI6IjY1YjlkNTNiLTRmYzQtNDYwMS04ZjEwLWJjZjM3NWJlMGRkYiIsImNsaWVudF9pZCI6InBjIn0.dwlPscNh0F5uiJknsK0BNeaivq5KR3sLdnp7_EoaZG8'} 
+        请求数据: None 
+        接口响应内容: {"success":true,"total":null,"data":[{"id":"70B25FCFD83211ED9CEF00163E159041","createby":"jm1@jst.com","updateby":"jm1@jst.com","deleted":false,"version":0,"updated":"2023-04-11 14:31:06","created":"2023-04-11 14:31:06","extData":{},"pid":"-1","longCode":"00F","brotherId":null,"parent":null,"children":[],"accountId":"3C71BC861B6843D28B583DD3F5E23E2C","subjectCode":"1901","subjectName":"待处理财产损溢","category":"资产","direct":0,"reckonMark":"N","reckonUnit":null,"active":"Y","isBuiltin":"N","isAssist":"N","isForeignCurrency":"N","isClosingExchangeRate":"N","isCashFlowItem":"N","isFooter":"Y","clientId":null,"rowIndex":null,"assistIdList":null,"customAssistIdList":null,"currencyIdList":null,"shortCode":null,"assist":null,"currency":null,"orderNo":"0","rowNum":null,"subjectCodeName":null,"cashFlowItemId":null,"currencyIsEnabled":null,"subjectNameAndAssistCategory":null,"disableUsername":null,"currencyCode":null,"currencyIds":null,"disableClick":null,"isAssistItem":null}],"message":null,"code":"0000","hasNext":false,"now":1683775192970,"extra":{}} 
+        接口响应时长: 0 
+        Https状态码: 200 
+====================================================== END
+
+        
+INFO - 2023-05-11 11:19:52,903 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:81 用例总数: 7
+INFO - 2023-05-11 11:19:52,903 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:82 通过用例数: 6
+INFO - 2023-05-11 11:19:52,904 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:83 异常用例数: 0
+INFO - 2023-05-11 11:19:52,904 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:84 失败用例数: 1
+INFO - 2023-05-11 11:19:52,904 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:85 跳过用例数: 0
+INFO - 2023-05-11 11:19:52,904 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:86 用例执行时长: 9.43 s
+INFO - 2023-05-11 11:19:52,905 - E:\allProject\ada_pytest_api_project\logs\info-2023-05-11.log:conftest.py:90 用例成功率: 85.71 %

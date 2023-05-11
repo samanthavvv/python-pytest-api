@@ -1,0 +1,174 @@
+ERROR - 2023-05-10 15:22:25,885 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_control.py:106 测试
+ERROR - 2023-05-10 15:22:42,609 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:22:44,735 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:22:46,762 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:22:46,775 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:29:30,896 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:29:32,991 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:29:35,019 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:29:35,029 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:31:51,712 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:31:53,816 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:31:55,844 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:31:55,855 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:34:30,069 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:34:32,208 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:34:34,231 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:34:34,242 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:35:54,901 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:35:57,012 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:35:59,032 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:35:59,042 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:38:57,849 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:38:59,951 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:39:01,973 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:39:01,988 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:44:23,367 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_control.py:108 测试
+ERROR - 2023-05-10 15:44:45,885 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_control.py:108 测试
+ERROR - 2023-05-10 15:44:57,797 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_control.py:106 测试
+ERROR - 2023-05-10 15:45:22,289 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:45:24,386 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:45:26,408 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:45:26,420 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:46:50,822 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:46:52,935 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:46:54,960 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:46:54,973 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:52:17,508 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:52:19,612 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:52:21,639 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:52:21,656 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
+ERROR - 2023-05-10 15:55:35,032 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:55:37,139 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:55:39,160 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:test_debug_create_delete_1999.py:45 1999_id的缓存数据未找到，请检查是否将该数据存入缓存中
+ERROR - 2023-05-10 15:55:39,173 - E:\allProject\ada_pytest_api_project\logs\error-2023-05-10.log:log_decorator.py:32 
+ BEGIN ======================================================
+        清理api?: True 
+        用例标题: 清理数据 - 删除科目1999 
+        请求路径: http://112.124.200.126/api/zz/zz/baseSubject/removeBatch?_A_C_I_D=$cache{acid} 
+        请求方式: POST 
+        请求头: {'Authorization': '$cache{authorization}'} 
+        请求数据: None 
+        接口响应内容: None 
+        接口响应时长: None 
+        Https状态码: None 
+====================================================== END
+
+        
