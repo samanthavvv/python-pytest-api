@@ -43,7 +43,7 @@ class TestCaseEnum(Enum):
     NAME = ("api_name", False)               # 该测试用例的名称。颗粒度是个api
     DESCRIPTION = ("description", False)     # 该测试用例的描述。颗粒度是个api
     CASE_ID = ("case_id", False)
-    IS_CLEAR_API = ("is_clear_api", True)   # 该api 是否是一个用于清理工作的api
+    PARENT_CASE = ("parent_case", True)   # 该api 是否是一个用于清理工作的api
     HOST = ("host", True)
     URL = ("url", True)
     METHOD = ("method", True)
@@ -123,7 +123,7 @@ class CurrentRequestSetCache(BaseModel):
 
 
 class TestCase(BaseModel):
-    is_clear_api: Union[Text, None]
+    parent_case: Union[Text, None]
     url: Text
     method: Text
     detail: Text
@@ -162,7 +162,7 @@ class RequestType(Enum):
     NONE = "NONE"
 
 class ResponseData(BaseModel):
-    is_clear_api: Union[Text,None]
+    parent_case: Union[Text,None]
     url: Text
     is_run: Union[None, bool, Text]
     detail: Text

@@ -18,6 +18,7 @@ from utils.path_tool.get_all_files_path import get_all_files
 from pathlib import Path
 
 from utils.testcase_template_tool.testcase_template import write_testcase_file
+from utils.testcase_template_tool.testcase_template_v2 import Template
 
 
 class TestCaseAutomaticGeneration:
@@ -37,7 +38,7 @@ class TestCaseAutomaticGeneration:
         if not _case_dir_path.exists():
             _case_dir_path.mkdir(parents=True, exist_ok=True)  # 如果目录不存在，则创建
 
-    def get_case_dir_and_filename(self,file_path, sheet_name):
+    def get_case_dir_and_filename(self, file_path, sheet_name):
         data_path = file_path.replace(ensure_path_sep(r'/data'), '')  # 例如 \YunKuaiJi\DebugTest\debug_test_query.xlsx
         case_root_dir = Path(ensure_path_sep('/test_case'))  # 例如 E:\allProject\ada_pytest_api_project\test_case
         case_path = Path(str(case_root_dir) + str(data_path))
@@ -95,13 +96,13 @@ class TestCaseAutomaticGeneration:
             all_test_case = GetExcelData(
                 file).orgnize_data()  # [{'sheet_name':xx, 'feature':xx, 'case_id1':xx, 'case_id2':xx,...}]
             for sheet in all_test_case:
-                write_testcase_file(
+                Template(
+                    sheet_cases=sheet,
                     class_title=self.class_title(sheet['sheet_name']),
-                    func_title=self.func_title(sheet['sheet_name']),
                     case_path=self.get_case_dir_and_filename(file, sheet['sheet_name']),
                     case_ids=self.case_ids(sheet),
                     file_name=sheet['sheet_name']
-                )
+                ).write_testcase_file()
 
 
 if __name__ == '__main__':

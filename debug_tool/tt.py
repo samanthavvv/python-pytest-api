@@ -1,12 +1,26 @@
 import pytest
 
-@pytest.fixture
-def num():
-    return 2
+@pytest.mark.dependency()
+def test_a():
+    print(12345,'a')
+    assert True
 
-def test_add(num):
-    assert num + 1 == 3
+@pytest.mark.dependency(depends=["test_a"])
+def test_b():
+    print(12345,'b')
+    assert False
 
-def test_multiply(num, request):
-    add_result = request.getfixturevalue("test_add")
-    assert num * add_result == 6
+@pytest.mark.dependency(depends=["test_a", "test_b"])
+def test_c():
+    print(12345,'c')
+
+    assert True
+
+@pytest.mark.dependency(depends=["test_c"], scope='session')
+def test_d():
+    print(12345,'d')
+    assert True
+
+
+if __name__ == '__main__':
+    pytest.main(['-s','-vvvv'])

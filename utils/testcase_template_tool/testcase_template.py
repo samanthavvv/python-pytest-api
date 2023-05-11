@@ -21,10 +21,31 @@ def write_case(case_path, page):
         file.write(page)
 
 
-def write_testcase_file(*, class_title,
+def dependt_setting(func_title, parent_case):
+    parent = f'@pytest.mark.dependency(depends=["{parent_case}"])' if parent_case is not None else f'@pytest.mark.dependency()'
+
+    test_method = f'''
+    @pytest.mark.flaky(reruns=2, reruns_delay=2)    
+    {parent}
+    def test_{func_title}(self, in_data, case_skip):
+        """
+        :param :
+        :return:
+        """
+        res = RequestControl(in_data).http_request()
+        TearDownHandler(res).teardown_handle()
+        Assert(assert_data=in_data['assert_data'],
+               sql_data=res.sql_data,
+               request_data=res.body,
+               response_data=res.response_data,
+               status_code=res.status_code).assert_type_handle()\n'''
+    return test_method
+
+
+def write_testcase_file(*, sheet_cases: dict, class_title,
                         func_title, case_path, case_ids, file_name):
     """
-
+        :@param sheet_cases: 每个sheet中的所有测试用例
         :param file_name: 文件名称
         :param class_title: 类名称
         :param func_title: 函数名称
@@ -55,27 +76,16 @@ TestData = GetTestCase.case_data(case_id)
 re_data = regular(str(TestData))
 
 
-class Test{class_title}:
-    
-    @pytest.mark.flaky(reruns=2, reruns_delay=2)    
-    @pytest.mark.parametrize('in_data', eval(re_data), ids=[i['detail'] for i in TestData])
-    def test_{func_title}(self, in_data, case_skip):
-        """
-        :param :
-        :return:
-        """
-        res = RequestControl(in_data).http_request()
-        TearDownHandler(res).teardown_handle()
-        Assert(assert_data=in_data['assert_data'],
-               sql_data=res.sql_data,
-               request_data=res.body,
-               response_data=res.response_data,
-               status_code=res.status_code).assert_type_handle()
+class Test{class_title}:\n'''
+
+    for i in ['aa','bb','cc','dd']:
+        page += dependt_setting(i, 'bbb')
 
 
-if __name__ == '__main__':
-    pytest.main(['{file_name}', '-s', '-W', 'ignore:Module already imported:pytest.PytestWarning'])
-'''
+    # for k, v in sheet_cases.items():
+    #     if k != 'feature' and k != 'sheet_name':
+    #         test_methods.append((k, v['parent_case']))  # case_id名字:parent_case的值
+
     if real_time_update_test_cases:
         write_case(case_path=case_path, page=page)
     elif real_time_update_test_cases is False:

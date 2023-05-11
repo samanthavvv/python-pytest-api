@@ -137,7 +137,7 @@ class CaseData(CaseDataCheck):
                     self.case_data = values
                     super().check_params_exit()
                     case_data ={
-                        'is_clear_api': self.case_data.get(TestCaseEnum.IS_CLEAR_API.value[0]),
+                        'parent_case': self.case_data.get(TestCaseEnum.PARENT_CASE.value[0]),
                         'url': self.get_host,
                         'method': self.get_method,
                         'detail': self.case_data.get(TestCaseEnum.DETAIL.value[0]),

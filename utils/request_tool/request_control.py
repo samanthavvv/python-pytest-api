@@ -348,6 +348,7 @@ class RequestControl:
 
         is_run = ast.literal_eval(cache_regular(str(self.__yaml_case.is_run)))
 
+        # 如果不是跳过用例，则发送http请求
         if is_run is True or is_run is None:
             _res_data=self.__yaml_case
             try:
@@ -362,6 +363,8 @@ class RequestControl:
                 return _res_data
             except Exception as e:
                 raise e
+
+        #
 
 
 if __name__ == '__main__':
